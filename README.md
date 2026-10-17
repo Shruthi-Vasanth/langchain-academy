@@ -57,7 +57,7 @@ PS> $env:API_ENV_VAR = "your-api-key-here"
 
 ### Set Google Gemini API key
 * If you don't have a Gemini API key, you can create one [here](https://aistudio.google.com/apikey).
-*  Set `GOOGLE_API_KEY` in your environment 
+*  Create a `.env` file in the repo root (it is git-ignored) and add `GOOGLE_API_KEY=your-key`. The notebooks load it with `python-dotenv`, taking precedence over your OS environment.
 
 ### Sign up and Set LangSmith API
 * Sign up for LangSmith [here](https://docs.langchain.com/langsmith/create-account-api-key#create-an-account-and-api-key), find out more about LangSmith and how to use it within your workflow [here](https://www.langchain.com/langsmith). 

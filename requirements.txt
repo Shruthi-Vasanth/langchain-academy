@@ -9,6 +9,7 @@ langchain-google-genai>=3.0.0
 langchain-text-splitters>=1.1.2
 notebook
 langchain-tavily
+python-dotenv
 wikipedia
 trustcall
 langgraph-cli[inmem]
